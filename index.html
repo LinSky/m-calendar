@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>老张日程</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<script src="js/flexible_css.js" charset="utf-8"></script>
+	<script src="js/flexible.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/public.css" type="text/css" />
+    <link rel="stylesheet" href="css/calendar.css" type="text/css" />
+</head>
+
+<body>
+    <div class="pager">
+        <div class="calendar" id="calendar">
+
+        </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js" charset="utf-8"></script>
+    <script src="js/m-calendar.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        var mCalendar = new MCalendar({
+            el: 'calendar',
+			currentDate: '2018-06-05',
+			url: 'http://www.baidu.com',
+			eventsKey: 'events',
+			clickUrl: 'http://www.baidu.com',
+			clickKey: 'keyword'
+        })
+    </script>
+</body>
+</html>
