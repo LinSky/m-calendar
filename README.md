@@ -16,3 +16,5 @@ var mCalendar = new MCalendar({
       clickKey: 'keyword'             //点击日期携带带参数字段
  })
 ```
+# Demo
+[https://linsky.github.io/m-calendar/](https://linsky.github.io/m-calendar/)
